@@ -165,7 +165,7 @@ body {
     .guarda-decorativa{
       display: block;
       width: 370px;
-      height: 2px;
+      height: 1px;
       background-color: #e3e4e5;
       margin: 20px auto 20px auto;
     }
@@ -354,7 +354,8 @@ body {
       }
     
       .nota-portada{
-        margin-top: 80px;
+        margin-top: 114px;
+        font-size: 1.2em;
       }
   
       .agregados{
