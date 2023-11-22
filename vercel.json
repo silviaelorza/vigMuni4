@@ -1,5 +1,5 @@
 {
-    "redirects": [
+    "rewrites": [
         {
             "source": "/feedback/(?!general)",
             "destination": "/api/feedback/general"
@@ -7,10 +7,7 @@
         {
             "source": "/feedback/((?!general).*)",
             "destination": "/api/feedback/general"
-        }
-
-    ],
-    "rewrites": [
+        },
         {
             "source": "/(.*",
             "destination": "/index.html"
