@@ -1,10 +1,20 @@
 {
-    
+    "redirects": [
+        {
+            "source": "/feedback/(?!general)",
+            "destination": "/api/feedback/general"
+        },
+        {
+            "source": "/feedback/((?!general).*)",
+            "destination": "/api/feedback/general"
+        }
+
+    ],
     "rewrites": [
         {
             "source": "/feedback/(?!general)",
             "destination": "/api/feedback/general"
-          },
+        },
         {
             "source": "/(.*",
             "destination": "/index.html"
