@@ -153,7 +153,7 @@ body {
     .columna-central{
       flex: 1;
       background-color: #e3e4e5;
-      padding: 20px;
+      padding: 0px 20px;
     }
   
     .foto-nota{
@@ -422,7 +422,7 @@ body {
       }
   
       .columna-dos2n{
-        margin-top: 140px;
+        margin-top: 100px;
       }
 
       .columna-dos3n{
