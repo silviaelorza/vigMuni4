@@ -183,10 +183,10 @@ body {
       text-decoration: underline;
     }
   
-    .columna-uno, .columna-dos{
+    .columna-uno, .columna-dos2n, .columna-dos3n{
       width: 45%;
       display: inline-block;
-      padding: 20px 20px;
+      padding: 10px 20px;
     }
   
     h3 {
@@ -376,7 +376,7 @@ body {
       }
 
       .datos-edicion{
-        margin-top: 20px;
+        margin-top: 10px;
       }
 
       .presentacion{
@@ -384,7 +384,7 @@ body {
       }
 
       .perfil{
-        width: 120px;
+        width: 110px;
         margin-top: 10px;
       }
 
@@ -399,12 +399,15 @@ body {
       .columna-central img.espacio-publicidad{
         margin: 0 auto;
       }
-      .columna-dos img.espacio-publicidad{
+      .columna-dos2n img.espacio-publicidad{
         margin: 0 auto;
       }
-    
+
+      .columna-dos3n img.espacio-publicidad{
+        margin: 0 auto;
+      }
       .nota-portada{
-        margin-top: 80px;
+        margin-top: 70px;
         font-size: 1.2em;
       }
    
@@ -412,18 +415,18 @@ body {
         margin: 0 0;
       }
   
-      .columna-uno, .columna-dos{
+      .columna-uno, .columna-dos2n, .columna-dos3n{
         display: block;
         width: 100%;
         padding: 0;
       }
   
       .columna-dos2n{
-        margin-top: 180px;
+        margin-top: 140px;
       }
 
       .columna-dos3n{
-        margin-top: 130px;
+        margin-top: 180px;
       }
       
       form{
@@ -483,7 +486,7 @@ body {
         flex: 1;
       }
   
-      .columna-uno, .columna-dos{
+      .columna-uno, .columna-dos2n, .columna-dos3n{
         display: block;
         width: 100%;
       }
