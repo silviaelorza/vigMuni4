@@ -133,8 +133,6 @@ body {
     .edicion-anterior{
         text-align: center;
         text-indent: 0;
-        margin-top: 50px;
-        margin-bottom: 50px;
     }
 
     .boton-ed-anterior {
@@ -378,25 +376,20 @@ body {
       }
 
       .datos-edicion{
-        margin-top: 20px;
+        margin-top: 10px;
       }
 
       .presentacion{
-        margin-top: 20px;
+        margin-top: 10px;
       }
 
       .perfil{
         width: 110px;
-        margin-top: 30px;
+        margin-top: 10px;
       }
 
       .desarrollo-nota{
-        margin-top: 20px;
-      }
-
-      .edicion-anterior{
-        margin-top: 50px;
-        margin-bottom: 50px;
+        margin-top: 10px;
       }
   
       .columna-central{
@@ -406,12 +399,15 @@ body {
       .columna-central img.espacio-publicidad{
         margin: 0 auto;
       }
+      .columna-dos2n img.espacio-publicidad{
+        margin: 0 auto;
+      }
 
       .columna-dos3n img.espacio-publicidad{
         margin: 0 auto;
       }
       .nota-portada{
-        margin-top: 130px;
+        margin-top: 70px;
         font-size: 1.2em;
       }
    
@@ -426,11 +422,11 @@ body {
       }
   
       .columna-dos2n{
-        margin-top: 160px;
+        margin-top: 100px;
       }
 
       .columna-dos3n{
-        margin-top: 140px;
+        margin-top: 180px;
       }
       
       form{
